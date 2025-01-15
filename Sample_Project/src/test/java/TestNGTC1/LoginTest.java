@@ -1,10 +1,10 @@
-package Tests;
+package TestNGTC1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import PageObjects.LoginPage;
+import PageObjectModel.LoginPage;
 
 public class LoginTest {
 	WebDriver driver;
